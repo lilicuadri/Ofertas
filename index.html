@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=1000px, height=1000px, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,900&display=swap" rel="stylesheet">
+	<script src="http://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<title></title>
+</head>
+<body>
+			
+	<h1>DATOS DE OFERTAS <br>MERCADO GANADERO DIGITAL</h1>
+	
+	
+	<h4><img class="colombia" src="https://sevmercadoganadero.com/images/colombia.jpg">   LOTES DISPONIBLES A NIVEL NACIONAL</h4>
+	
+	<div  class="wrap">
+		<div class="widget">
+			<div class="fecha">	
+				<h1 class="f2"><i class="far fa-calendar-alt"></i>
+					<p id="diaSemana" class="diaSemana marg"></p>
+					<p id="dia" class="dia marg"></p> <p class="marg">/</p>
+					<p id="mes" class="mes marg"></p>
+					<p class="marg">/</p>
+					<p id="year" class="year marg"></p>
+				</h1>
+			</div>	
+		</div>
+	</div>
+
+	
+
+	<script>
+		(function(){
+	var actualizaHora = function(){
+		var fecha = new Date(),
+			diaSemana = fecha.getDay(),
+			dia = fecha.getDate(),
+			mes = fecha.getMonth(),
+			year = fecha.getFullYear();
+
+			var pDiaSemana = document.getElementById('diaSemana'),
+				pDia = document.getElementById('dia'),
+				pMes = document.getElementById('mes'),
+				pYear = document.getElementById('year');
+
+		var semana = [' DOMINGO',' LUNES',' MARTES',' MIERCOLES',' JUEVES',' VIERNES',' SABADO'];
+		
+		pDiaSemana.textContent = semana[diaSemana];
+		
+		pDia.textContent = dia;
+
+		var meses = ['01','02','03','04','05', '06', '07', '08', '09', '10', '11', '12'];
+		pMes.textContent = meses[mes];
+
+		pYear.textContent = year; 
+
+	};
+	actualizaHora(); 
+	}())
+	</script>
+
+	<tbody>
+
+		<table>
+				<tr>
+					<th>Ganado Bovino</th>
+					<th>#Ofertas</th>
+					<th>#Animales</th>
+				</tr>
+
+				<tr>
+					<td class="largo">Carne</td>
+					<td>101</td>
+					<td>2.161</td>
+				</tr>
+
+				<tr>
+					<td class="largo">Leche</td>
+					<td>112</td>
+					<td>925</td>
+				</tr>
+
+				<tr>
+					<td class="largo">Puro</td>
+					<td>19</td>
+					<td>56</td>
+				</tr>
+
+				<tr style="height: 10px;"></tr>
+				<tr>
+					<td class="largo">Otros animales</td>
+					<td>9</td>
+					<td>70</td>
+				</tr>
+
+				<tr style="height: 10px"></tr>
+				<tr >
+					<td class="total largo" style="font-size:35px;" class="largo">Total</td>
+					<td class="total" style="font-size:35px;">241</td>
+					<td class="total" style="font-size:35px;">3.212</td>
+				</tr>
+		</table>
+	</tbody>
+
+	<p class="cen">Para conocer más ingresa a:</p>
+
+	<p><a <i class="fas fa-globe"></i></a> sevmercadoganadero.com
+	<a <i class="far fa-play-circle"></i></a></i> Descarga nuestra APP
+	</p>
+</body>
+</html>

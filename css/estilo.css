@@ -1,0 +1,130 @@
+html{
+    margin: 100px;
+}
+
+.fecha{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    padding: 30;
+}
+
+.widget p{
+    display: inline-block;
+    line-height: 1em;
+    color:  #345274 ;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+
+}
+
+h1{
+    color:  #F42F7F;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 50px;
+    padding: 30;
+    margin-top: 50px; 
+}
+
+.f2{
+    margin: 0 !important;
+}
+
+
+i{
+    color:crimson;
+    font-size: 25px;  
+}
+
+   
+table{
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Roboto', sans-serif;
+    font-weight: 900;
+    height: 400px;
+    padding: 40px;
+    border-spacing: 20px 2px;
+    border-collapse: separate;
+    text-indent: 1em; 
+    text-align: center ;
+}
+
+
+table th{
+    width: 10em;
+    background-color: white;
+    color: #345274; 
+    font-family:  'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+table td{
+    color:white;
+    background-color:  #345274 ;
+    font-size: 30px;
+    border: 30px;
+    border-radius: 10px 10px; 
+}
+
+.largo{
+    width: 30%;
+    text-align: left;
+
+}
+
+table th{
+    width: 15%;
+    text-align: left;
+    
+}
+
+.total{
+    height: 15px;
+    background-color:   #9cb4d4 ;
+    color: #345274;
+}
+
+
+h4{
+    color:  #345274;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    font-size: 31px;
+    margin: 0;
+    
+}
+
+.cen{
+    text-align: center;
+    color: #345274;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    
+}
+
+p{
+    text-align: center;
+    color: #345274;
+    font-family: sans-serif;
+    font-size: 20px; 
+    padding: 30;
+    margin: 20px;
+}
+
+.marg{
+    margin: 0 !important;
+}
+
+
+a{
+    color: #345274;
+}
+
+
+.colombia{
+    width: 30px;
+    vertical-align: middle;
+}
